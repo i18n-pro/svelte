@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": ".",
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
@@ -12,5 +12,5 @@
     "declaration": true,
     "esModuleInterop": true
   },
-  "include": ["src/"]
+  "include": ["src/", "./global.d.ts"]
 }

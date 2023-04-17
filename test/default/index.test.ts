@@ -1,7 +1,7 @@
 import { render, fireEvent } from '@testing-library/svelte'
 import '@testing-library/jest-dom'
 import Component from './App.svelte'
-import { createI18n } from '../src/index'
+import { createI18n } from '../../src/index'
 
 it('full test', async () => {
   createI18n({

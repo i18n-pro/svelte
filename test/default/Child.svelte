@@ -1,5 +1,5 @@
 <script>
-  import { t } from '../src'
+  import { t } from '../../src'
 </script>
 
 <div>

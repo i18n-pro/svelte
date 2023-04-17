@@ -1,5 +1,5 @@
 <script>
-  import { setI18n } from '../src'
+  import { setI18n } from '../../src'
   import Child from './Child.svelte'
 </script>
 
