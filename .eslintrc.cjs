@@ -8,7 +8,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:svelte3',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
