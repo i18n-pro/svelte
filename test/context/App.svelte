@@ -1,8 +1,8 @@
 <script>
-  import { useI18n } from '../src/context'
+  import { useI18n } from '../../src/context'
   import Child from './Child.svelte'
 
-  const [, setI18n] = useI18n()
+  const { setI18n, i18nState } = useI18n()
 </script>
 
 <div>
@@ -25,5 +25,8 @@
   >
     日语
   </button>
+  <div id="locale">
+    { $i18nState?.locale }
+  </div>
   <Child/>
 </div>

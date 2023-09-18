@@ -14,7 +14,7 @@
   export let formatTime: I18nState['formatTime'] = undefined
   export let formatPlural: I18nState['formatPlural'] = undefined
 
-  const i18n = initI18n({
+  let state:I18nState = {
     namespace,
     locale,
     langs,
@@ -24,24 +24,35 @@
     formatDate,
     formatTime,
     formatPlural,
-  })
+  }
+
+  const i18n = initI18n(state)
 
   let setT: (t: Translate) => void = (t: Translate) => {
     return t
   }
 
-  const setI18n:SetI18n = (...args) => {
-    const newState = i18n.setI18n(...args)
-    setT(i18n.t.bind(null))
+  let setI18nState: (i18nState: I18nState) => void = (i18nState: I18nState) => {
+    state = i18nState
+  }
 
-    return newState
+  const setI18n:SetI18n = (...args) => {
+    state = i18n.setI18n(...args)
+    setT(i18n.t.bind(null))
+    setI18nState(state)
+
+    return state
   }
 
   const t = readable(i18n.t, (setTProp) => {
     setT = setTProp
   })
 
-  setInnerContext(t, setI18n)
+  const i18nState = readable(state, (setI18nStateProp) => {
+   (setI18nState=setI18nStateProp)(state)
+  })
+
+  setInnerContext(t, setI18n, i18nState)
 </script>
 
 <slot></slot>

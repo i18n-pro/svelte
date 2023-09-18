@@ -1,7 +1,7 @@
 <script>
-  import { useI18n } from '../src/context'
+  import { useI18n } from '../../src/context'
 
-  const [t] = useI18n()
+  const { t } = useI18n()
 </script>
 
 <div>

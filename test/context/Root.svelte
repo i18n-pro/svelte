@@ -1,5 +1,5 @@
 <script>
-  import { I18nProvider } from '../src/context'
+  import { I18nProvider } from '../../src/context'
   import App from './App.svelte'
 </script>
 
