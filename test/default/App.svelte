@@ -1,5 +1,5 @@
 <script>
-  import { setI18n } from '../../src'
+  import { setI18n, i18nState } from '../../src'
   import Child from './Child.svelte'
 </script>
 
@@ -23,5 +23,8 @@
   >
     日语
   </button>
+  <div id="locale">
+    { $i18nState?.locale }
+  </div>
   <Child/>
 </div>
