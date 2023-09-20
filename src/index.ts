@@ -15,7 +15,7 @@ function warn() {
   }
 }
 
-let innerI18nState:I18nState = { namespace }
+let innerI18nState: I18nState = { namespace }
 
 let i18nAPI: Omit<ReturnType<typeof initI18n>, 'withI18n'> = {
   t: (x) => {
@@ -27,14 +27,9 @@ let i18nAPI: Omit<ReturnType<typeof initI18n>, 'withI18n'> = {
   },
 }
 
-let setT: (t: Translate) => void = (t: Translate) => {
-  warn()
-  return t
-}
+let setT: (t: Translate) => void = null
 
-let setI18nState: (i18nState:I18nState)=>void = (i18nStateProp) => {
- innerI18nState = i18nStateProp
-}
+let setI18nState: (i18nState: I18nState) => void = null
 
 export function createI18n(i18nState: I18nState) {
   i18nAPI = initI18n(i18nState)
@@ -43,13 +38,8 @@ export function createI18n(i18nState: I18nState) {
 }
 
 export const t = readable(i18nAPI.t, (setTProp) => {
-  warn();
-  (setT = setTProp)(i18nAPI.t)
-
-  return () => {
-    i18nAPI = null
-    setT = null
-  }
+  warn()
+  ;(setT = setTProp)(i18nAPI.t)
 })
 
 export const setI18n: SetI18n = (args) => {
@@ -61,11 +51,6 @@ export const setI18n: SetI18n = (args) => {
 }
 
 export const i18nState = readable(innerI18nState, (setI18nStateProp) => {
-  warn();
-  (setI18nState = setI18nStateProp)(innerI18nState)
-
-  return () => {
-    innerI18nState = null
-    setI18nState = null
-  }
+  warn()
+  ;(setI18nState = setI18nStateProp)(innerI18nState)
 })
