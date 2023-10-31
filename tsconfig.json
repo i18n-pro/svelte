@@ -2,23 +2,23 @@
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": ".",
-    "module": "ESNext",
+    "module": "CommonJS",
     "target": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
     "removeComments": true,
     "outDir": "dist",
     "resolveJsonModule": true,
     "declaration": true,
     "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "jsx-to-md"
   },
   "include": [
     "src/",
     "./global.d.ts",
     "test/",
-    "node_modules/vitest/globals.d.ts"
+    "node_modules/vitest/globals.d.ts",
+    "docs/src"
   ]
 }
