@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "rootDir": ".",
-    "module": "ESNext",
+    "baseUrl": "../",
+    "rootDir": "../",
+    "module": "CommonJS",
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
@@ -15,10 +15,8 @@
     "jsxImportSource": "jsx-to-md"
   },
   "include": [
-    "src/",
-    "./global.d.ts",
-    "test/",
-    "node_modules/vitest/globals.d.ts",
-    "docs/src"
+    "../global.d.ts",
+    "../node_modules/vitest/globals.d.ts",
+    "./docs/src"
   ]
 }

@@ -5,26 +5,26 @@ const package = require('./package.json')
 const codeNameMap = package.codeNameMap
 
 const readme = {
-  entry: 'docs/src/readme',
-  out: '',
+  entry: './src/readme',
+  out: '../',
   name: 'README',
 }
 
 const usage = {
-  entry: 'docs/src/usage',
-  out: 'docs/dist/',
+  entry: './src/usage',
+  out: './dist/',
   name: 'USAGE',
 }
 
 const api = {
-  entry: 'docs/src/api',
-  out: 'docs/dist/',
+  entry: './src/api',
+  out: './dist/',
   name: 'API',
 }
 
 const changeLog = {
-  entry: 'docs/src/changelog',
-  out: 'docs/dist/',
+  entry: './src/changelog',
+  out: './dist/',
   name: 'CHANGELOG',
 }
 

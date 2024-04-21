@@ -1,7 +1,7 @@
 {
   "name": "@i18n-pro/svelte",
   "version": "0.1.0",
-  "type": "commonjs",
+  "type": "module",
   "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Svelte（适用于 Svelte 的轻量、简单、灵活、自动翻译的国际化工具）",
   "keywords": [
     "svelte",
@@ -34,7 +34,7 @@
     "coverage": "vitest --coverage",
     "build": "rimraf dist/src && rollup -c",
     "publish": "npm run build && npm publish --access=public --registry https://registry.npmjs.org",
-    "docs": "jtm run",
+    "docs": "cd docs && npm run docs",
     "docs-translate": "i18n t -P docs/src"
   },
   "author": "Eyelly Wu",
