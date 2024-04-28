@@ -1,6 +1,7 @@
 import ts from 'rollup-plugin-typescript2'
 import prettier from 'rollup-plugin-prettier'
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
+import copy from 'rollup-plugin-copy'
 import { version, name } from './package.json'
 
 const formats = ['esm.min']
@@ -54,11 +55,14 @@ export default formats.map((format, index) => {
             resolveJsonModule: true,
           },
           include: ['./src/index.ts'],
-          exclude: ['./scr/context', 'test'],
+          exclude: ['./src/context', 'test'],
         },
       }),
       prettier(),
       ...pluginsExtra,
+      copy({
+        targets: [{ src: './src/context/**', dest: './dist/src/context/' }],
+      }),
     ],
   }
 })

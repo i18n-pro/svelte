@@ -18,7 +18,6 @@
     "src/",
     "./global.d.ts",
     "test/",
-    "node_modules/vitest/globals.d.ts",
-    "docs/src"
+    "node_modules/vitest/globals.d.ts"
   ]
 }

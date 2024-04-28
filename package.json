@@ -23,6 +23,14 @@
   ],
   "module": "dist/src/index.min.js",
   "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": "dist/src/index.min.js",
+    "./context": {
+      "import": "./dist/src/context/index.ts",
+      "./dist/*": "./dist/*",
+      "./package.json": "./package.json"
+    }
+  },
   "files": [
     "dist/src"
   ],
@@ -43,6 +51,7 @@
     "@commitlint/cli": "^17.4.3",
     "@commitlint/config-conventional": "^17.4.3",
     "@eyelly/prettier-config": "^1.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "@sveltejs/vite-plugin-svelte": "2.x.x",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/svelte": "^3.2.2",
@@ -62,8 +71,8 @@
     "prettier": "^2.8.4",
     "rimraf": "^5.0.1",
     "rollup": "2",
+    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-prettier": "3",
-    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.35.0",
     "svelte-preprocess": "5.0.3",
     "tslib": "^2.5.0",
