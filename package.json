@@ -1,7 +1,7 @@
 {
   "name": "@i18n-pro/svelte",
-  "version": "0.1.0",
-  "type": "commonjs",
+  "version": "1.0.0-alpha.1",
+  "type": "module",
   "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Svelte（适用于 Svelte 的轻量、简单、灵活、自动翻译的国际化工具）",
   "keywords": [
     "svelte",
@@ -97,6 +97,6 @@
   },
   "homepage": "https://github.com/i18n-pro/svelte",
   "bugs": {
-    "url": "https://github.com/i18n-pro/solid/issues"
+    "url": "https://github.com/i18n-pro/svelte/issues"
   }
 }
