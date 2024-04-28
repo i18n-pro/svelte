@@ -1,0 +1,10 @@
+{
+  "name": "docs",
+  "scripts": {
+    "docs": "jtm run"
+  },
+  "codeNameMap": {
+    "en": "",
+    "zh": "zh-CN"
+  }
+}

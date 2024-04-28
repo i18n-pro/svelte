@@ -1,7 +1,7 @@
 {
   "name": "@i18n-pro/svelte",
   "version": "0.1.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Svelte（适用于 Svelte 的轻量、简单、灵活、自动翻译的国际化工具）",
   "keywords": [
     "svelte",
@@ -41,7 +41,9 @@
     "test": "vitest --ui",
     "coverage": "vitest --coverage",
     "build": "rimraf dist/src && rollup -c",
-    "publish": "npm run build && npm publish --access=public --registry https://registry.npmjs.org"
+    "publish": "npm run build && npm publish --access=public --registry https://registry.npmjs.org",
+    "docs": "cd docs && npm run docs",
+    "docs-translate": "i18n t -P docs/src"
   },
   "author": "Eyelly Wu",
   "license": "MIT",
@@ -64,6 +66,7 @@
     "eslint-plugin-svelte3": "^4.0.0",
     "husky": "^8.0.3",
     "jsdom": "^21.1.0",
+    "jsx-to-md": "^0.11.4",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "rimraf": "^5.0.1",
@@ -87,5 +90,13 @@
   },
   "lint-staged": {
     "*.{json,ts,tsx,js,svelte}": "eslint --fix -f table"
+  },
+  "codeNameMap": {
+    "en": "",
+    "zh": "zh-CN"
+  },
+  "homepage": "https://github.com/i18n-pro/svelte",
+  "bugs": {
+    "url": "https://github.com/i18n-pro/solid/issues"
   }
 }
