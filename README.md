@@ -11,7 +11,7 @@ English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/
 [![github-stars](https://img.shields.io/github/stars/i18n-pro/svelte?style=social "github-stars")](https://github.com/i18n-pro/svelte/stargazers "github-stars")
 [![last-commit](https://img.shields.io/github/last-commit/i18n-pro/svelte/main "last-commit")](https://github.com/i18n-pro/svelte/commits/main "last-commit")
 [![github-issues](https://img.shields.io/github/issues-raw/i18n-pro/svelte "github-issues")](https://github.com/i18n-pro/svelte/issues "github-issues")
-[![codecov](https://codecov.io/gh/i18n-pro/svelte/branch/main/graph/badge.svg?token=RMHGQUBVY6 "codecov")](https://codecov.io/gh/i18n-pro/svelte "codecov")
+[![codecov](https://codecov.io/gh/i18n-pro/svelte/branch/main/graph/badge.svg?token=0F80N8BAZ0 "codecov")](https://codecov.io/gh/i18n-pro/svelte "codecov")
 
 ![demo](https://s3.bmp.ovh/imgs/2024/04/29/bb8d20297d6edf26.gif)
 
