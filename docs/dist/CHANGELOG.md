@@ -2,7 +2,7 @@
 # Changelog
 
 
-English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/CHANGELOG_zh-CN.md)
+English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/CHANGELOG_zh-CN.md)
 
 
 <details >
