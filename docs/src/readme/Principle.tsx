@@ -14,7 +14,7 @@ import {
 function Store() {
   return (
     <>
-      <H2>{t('基于{0}的实现', ' `Store` ')}</H2>
+      <H2>{t('基于{0}实现', ' `Store` ')}</H2>
       {t('主要由{0}部分构成', ' `4` ')}
       <List items={['U', 'createI18n', 't', 'setI18n', 'i18nState']} />
       <Break />
@@ -75,7 +75,7 @@ new App({
 function Context() {
   return (
     <>
-      <H2>{t('基于{0}的实现', ' `Context` ')}</H2>
+      <H2>{t('基于{0}实现', ' `Context` ')}</H2>
       {t('主要由{0}部分构成', ' `2` ')}
       <List items={['U', 'I18nProvider', 'useI18n']} />
       <Break />

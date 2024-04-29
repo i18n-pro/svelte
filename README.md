@@ -51,10 +51,10 @@ To make internationalization easy and enjoyable 😄💪🏻
 
 # Live Demo
 
-* Realization based on  `Store` 
+* Implementation based on  `Store` 
    * [Open in CodeSandbox](https://codesandbox.io/p/github/i18n-pro/svelte-demo/main?file=README.md)
    * [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg "Open in StackBlitz")](https://stackblitz.com/github/i18n-pro/svelte-demo?file=README.md)
-* Realization based on  `Context` 
+* Implementation based on  `Context` 
    * [Open in CodeSandbox](https://codesandbox.io/p/github/i18n-pro/svelte-demo/context?file=README.md)
    * [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg "Open in StackBlitz")](https://stackblitz.com/github/i18n-pro/svelte-demo/tree/context?file=README.md)
 
@@ -70,7 +70,7 @@ Mainly composed of  `4`  part
 
 
 
-**createI18n**：Initialize internationalization<br />**t**：Get international documents<br />**setI18n**：Set language or language package<br />**i18nState**：The current state of internationalization
+**createI18n**：Initialize internationalization<br />**t**：Get internationalization text<br />**setI18n**：Set language or language package<br />**i18nState**：The current state of internationalization
 
 
 
@@ -167,11 +167,11 @@ new App({
 >To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br />The  `i18n-pro`  related link in the current document is based on the  `2.1.0`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage
 * Current Library
    * Quick Start
-      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_STORE.md)
-      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_CONTEXT.md)
+      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_STORE.md)
+      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_CONTEXT.md)
    * API
-      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_STORE.md)
-      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_CONTEXT.md)
+      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_STORE.md)
+      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_CONTEXT.md)
    * [Changelog](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/CHANGELOG.md)
 * i18n-pro
    * [Command Line](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/COMMAND_LINE.md)

@@ -24,8 +24,8 @@
   [特性](#特性)<br/>
   [Live Demo](#live-demo)<br/>
   [原理](#原理)<br/>
-  &emsp;&emsp;[基于 `Store` 的实现](#基于-store-的实现)<br/>
-  &emsp;&emsp;[基于 `Context` 的实现](#基于-context-的实现)<br/>
+  &emsp;&emsp;[基于 `Store` 实现](#基于-store-实现)<br/>
+  &emsp;&emsp;[基于 `Context` 实现](#基于-context-实现)<br/>
   [License](#license)<br/>
 
 </details>
@@ -61,7 +61,7 @@
 
 # 原理
 该库是基于 [i18n-pro](https://github.com/i18n-pro/core "i18n-pro") 结合 `Svelte` 的 `Store` 和 `Context` 特性分别做了对应实现
-## 基于 `Store` 的实现
+## 基于 `Store` 实现
 主要由 `4` 部分构成
 * createI18n
 * t
@@ -110,7 +110,7 @@ new App({
 })
 ```
 
-## 基于 `Context` 的实现
+## 基于 `Context` 实现
 主要由 `2` 部分构成
 * I18nProvider
 * useI18n

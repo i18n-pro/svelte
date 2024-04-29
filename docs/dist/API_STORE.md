@@ -27,7 +27,7 @@ Initialize internationalization
 The parameters are consistent with the  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#initi18n">initI18n</a>  parameter
 
 ## t
-Get international documents，Consistent with  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#t">t</a> <br />Note: Since  `t`  is a reactive state, you need to use it like  `$t`  when using it in tags
+Get internationalization text，Consistent with  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#t">t</a> <br />Note: Since  `t`  is a reactive state, you need to use it like  `$t`  when using it in tags
 
 
 ## i18nState
