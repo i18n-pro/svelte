@@ -2,7 +2,7 @@
 # Changelog
 
 
-English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/CHANGELOG_zh-CN.md)
+English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/CHANGELOG_zh-CN.md)
 
 
 <details >
@@ -20,5 +20,5 @@ English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/
 
 <h4 id="100-api-added">Added</h4>
 
-* The implementation of the two characteristics of the two characteristics is based on the two characteristics of  `Store`  and  `Context` 
+* Added implementations based on the two features of  `Store`  and  `Context`  respectively
 

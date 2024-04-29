@@ -27,11 +27,11 @@ Initialize internationalization
 The parameters are consistent with the  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#initi18n">initI18n</a>  parameter
 
 ## t
-Get international documents，Consistent with  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#t">t</a> <br />Note: Since  `t`  is a response state, it is necessary to use it when using it in the label
+Get international documents，Consistent with  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#t">t</a> <br />Note: Since  `t`  is a reactive state, you need to use it like  `$t`  when using it in tags
 
 
 ## i18nState
-The current state of internationalization，The type is  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#i18nstate">I18nState</a> <br />Note: Since  `i18nState`  is a response state, it is necessary to use it when using it in the label
+The current state of internationalization，The type is  <a href="https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/API.md#i18nstate">I18nState</a> <br />Note: Since  `i18nState`  is a reactive state, you need to use it like  `$i18nState`  when using it in tags
 
 
 ## setI18n

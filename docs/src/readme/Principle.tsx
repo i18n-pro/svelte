@@ -14,7 +14,8 @@ import {
 function Store() {
   return (
     <>
-      <H2>{t('基于{0}的实现主要由{1}部分构成', ' `Store` ', ' `4` ')}</H2>
+      <H2>{t('基于{0}的实现', ' `Store` ')}</H2>
+      {t('主要由{0}部分构成', ' `4` ')}
       <List items={['U', 'createI18n', 't', 'setI18n', 'i18nState']} />
       <Break />
       <Break />
@@ -59,7 +60,7 @@ createI18n( {
 </div>
 
 // index.ts
-import ‘./i18n.ts’
+import './i18n'
 import App from './App.svelte'
 
 new App({
@@ -74,7 +75,8 @@ new App({
 function Context() {
   return (
     <>
-      <H2>{t('基于{0}的实现主要由{1}部分构成', ' `Context` ', ' `2` ')}</H2>
+      <H2>{t('基于{0}的实现', ' `Context` ')}</H2>
+      {t('主要由{0}部分构成', ' `2` ')}
       <List items={['U', 'I18nProvider', 'useI18n']} />
       <Break />
       <Break />

@@ -12,6 +12,7 @@
   &emsp;&emsp;&emsp;&emsp;[类型](#usei18n-类型)<br/>
 
 </details>
+
 以下API需要通过命名路径 `@i18n-pro/svelte/context` 来引入
 
 ```js

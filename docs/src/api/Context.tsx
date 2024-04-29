@@ -93,6 +93,7 @@ export default function API(props) {
           <H1 skip>{t('API')}</H1>
           <SpecialStatement i18nProPkg={i18nProPkg} />
           <TableOfContents text={t('目录')} open={false} />
+          <Break />
           {t(
             '以下API需要通过命名路径{0}来引入',
             ` \`${contextPackageNameWithAt}\` `,

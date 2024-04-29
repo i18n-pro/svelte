@@ -72,10 +72,10 @@ export default function Top() {
       </Link>
       <Break />
       <Break />
-      {/* <Image
+      <Image
         alt="demo"
-        src="https://s3.bmp.ovh/imgs/2023/09/15/c8957fd4abda1dfe.gif"
-      /> */}
+        src="https://s3.bmp.ovh/imgs/2024/04/29/bb8d20297d6edf26.gif"
+      />
       <Break />
     </div>
   )

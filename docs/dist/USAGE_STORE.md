@@ -8,7 +8,7 @@
   &emsp;&emsp;[1. Install](#1-install)<br/>
   &emsp;&emsp;[2. Access API](#2-access-api)<br/>
   &emsp;&emsp;&emsp;&emsp;[Initialization state](#initialization-state)<br/>
-  &emsp;&emsp;&emsp;&emsp;[Wrap with  `t`   `Translation Text` ](#wrap-with--t---translation-text)<br/>
+  &emsp;&emsp;&emsp;&emsp;[Wrap  `Translation Text`  with  `t` ](#wrap--translation-text--with--t)<br/>
   &emsp;&emsp;[3. Initialize Command Line Configuration File](#3-initialize-command-line-configuration-file)<br/>
   &emsp;&emsp;[4. Adjust  `i18nrc.js`  Configuration](#4-adjust--i18nrcjs--configuration)<br/>
   &emsp;&emsp;[5. Execute Translation Command](#5-execute-translation-command)<br/>
@@ -42,7 +42,7 @@ createI18n({
 })
 ```
 
-### Wrap with  `t`   `Translation Text` 
+### Wrap  `Translation Text`  with  `t` 
 
 ```js
 // App.svelte
@@ -139,4 +139,4 @@ You can switch languages through  `setI18n`
 
 
 ## 8. Demo
-Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/svelte/tree/v1.0.0-alpha.1#live-demo)  in the  `README`  document
+Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/svelte/tree/v1.0.0-alpha.2#live-demo)  in the  `README`  document

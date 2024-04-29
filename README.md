@@ -1,7 +1,7 @@
 <div align="center">
   <p style="font-size: 18px;">Lightweight, simple, flexible, automatic translation internationalization tool for Svelte</p>
 
-English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/README_zh-CN.md)
+English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/README_zh-CN.md)
 
 
 
@@ -13,7 +13,7 @@ English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/
 [![github-issues](https://img.shields.io/github/issues-raw/i18n-pro/svelte "github-issues")](https://github.com/i18n-pro/svelte/issues "github-issues")
 [![codecov](https://codecov.io/gh/i18n-pro/svelte/branch/main/graph/badge.svg?token=RMHGQUBVY6 "codecov")](https://codecov.io/gh/i18n-pro/svelte "codecov")
 
-
+![demo](https://s3.bmp.ovh/imgs/2024/04/29/bb8d20297d6edf26.gif)
 
 </div>
 <details >
@@ -24,8 +24,8 @@ English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/
   [Features](#features)<br/>
   [Live Demo](#live-demo)<br/>
   [Principle](#principle)<br/>
-  &emsp;&emsp;[The implementation based on  `Store`  is mainly composed of  `4`  part](#the-implementation-based-on--store--is-mainly-composed-of--4--part)<br/>
-  &emsp;&emsp;[The implementation based on  `Context`  is mainly composed of  `2`  part](#the-implementation-based-on--context--is-mainly-composed-of--2--part)<br/>
+  &emsp;&emsp;[Implementation based on  `Store` ](#implementation-based-on--store)<br/>
+  &emsp;&emsp;[Implementation based on  `Context` ](#implementation-based-on--context)<br/>
   [License](#license)<br/>
 
 </details>
@@ -60,9 +60,9 @@ To make internationalization easy and enjoyable 😄💪🏻
 
 
 # Principle
-The library is based on the  `Store`  and  `Context`  features based on  [i18n-pro](https://github.com/i18n-pro/core "i18n-pro")  binding  `Svelte` .
-## The implementation based on  `Store`  is mainly composed of  `4`  part
-
+This library has corresponding implementations for the  `Store`  and  `Context`  features based on  [i18n-pro](https://github.com/i18n-pro/core "i18n-pro")  and  `Svelte` 
+## Implementation based on  `Store` 
+Mainly composed of  `4`  part
 * createI18n
 * t
 * setI18n
@@ -102,7 +102,7 @@ createI18n( {
 </div>
 
 // index.ts
-import ‘./i18n.ts’
+import './i18n'
 import App from './App.svelte'
 
 new App({
@@ -110,8 +110,8 @@ new App({
 })
 ```
 
-## The implementation based on  `Context`  is mainly composed of  `2`  part
-
+## Implementation based on  `Context` 
+Mainly composed of  `2`  part
 * I18nProvider
 * useI18n
 
@@ -167,12 +167,12 @@ new App({
 >To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br />The  `i18n-pro`  related link in the current document is based on the  `2.1.0`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage
 * Current Library
    * Quick Start
-      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/USAGE_STORE.md)
-      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/USAGE_CONTEXT.md)
+      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_STORE.md)
+      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/USAGE_CONTEXT.md)
    * API
-      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/API_STORE.md)
-      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/API_CONTEXT.md)
-   * [Changelog](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.1/docs/dist/CHANGELOG.md)
+      * [Realization based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_STORE.md)
+      * [Realization based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/API_CONTEXT.md)
+   * [Changelog](https://github.com/i18n-pro/svelte/blob/v1.0.0-alpha.2/docs/dist/CHANGELOG.md)
 * i18n-pro
    * [Command Line](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/COMMAND_LINE.md)
    * [Matching Rules](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/MATCH_RULE.md)

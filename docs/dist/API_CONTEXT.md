@@ -12,6 +12,7 @@
   &emsp;&emsp;&emsp;&emsp;[Type](#usei18n-type)<br/>
 
 </details>
+
 The following API needs to be introduced through the naming path  `@i18n-pro/svelte/context` 
 
 ```js
@@ -43,7 +44,7 @@ The other parameters are consistent with the  <a href="https://github.com/i18n-p
 </table>
 
 ## useI18n
-Hook method for obtaining internationalization API and state<br />Note: Since  `i18nState`  and  `t`  are responsive state, you need  `$i18nState` and `$t`  to use it when using in the label
+Hook method for obtaining internationalization API and state<br />Note: Since  `i18nState`  and  `t`  are reactive states, you need to use them like  `$i18nState` and `$t`  when using them in tags
 <h3 id="usei18n-type">Type</h3>
 <pre>
 () => ({
