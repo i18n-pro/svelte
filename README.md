@@ -1,7 +1,7 @@
 <div align="center">
   <p style="font-size: 18px;">Lightweight, simple, flexible, automatic translation internationalization tool for Svelte</p>
 
-English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.0/README_zh-CN.md)
+English | [简体中文](https://github.com/i18n-pro/svelte/blob/v1.0.1/README_zh-CN.md)
 
 
 
@@ -164,20 +164,20 @@ new App({
 
 # Help Document
 
->To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br />The  `i18n-pro`  related link in the current document is based on the  `2.1.0`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage
+>To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br />The  `i18n-pro`  related link in the current document is based on the  `2.1.1`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage
 * Current Library
    * Quick Start
-      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/USAGE_STORE.md)
-      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/USAGE_CONTEXT.md)
+      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.1/docs/dist/USAGE_STORE.md)
+      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.1/docs/dist/USAGE_CONTEXT.md)
    * API
-      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/API_STORE.md)
-      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/API_CONTEXT.md)
-   * [Changelog](https://github.com/i18n-pro/svelte/blob/v1.0.0/docs/dist/CHANGELOG.md)
+      * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v1.0.1/docs/dist/API_STORE.md)
+      * [Implementation based on  `Context` ](https://github.com/i18n-pro/svelte/blob/v1.0.1/docs/dist/API_CONTEXT.md)
+   * [Changelog](https://github.com/i18n-pro/svelte/blob/v1.0.1/docs/dist/CHANGELOG.md)
 * i18n-pro
-   * [Command Line](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/COMMAND_LINE.md)
-   * [Matching Rules](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/MATCH_RULE.md)
-   * [Q&A](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/Q&A.md)
-   * [Translation Log](https://github.com/i18n-pro/core/blob/v2.1.0/docs/dist/OUTPUT_LOG.md)
+   * [Command Line](https://github.com/i18n-pro/core/blob/v2.1.1/docs/dist/COMMAND_LINE.md)
+   * [Matching Rules](https://github.com/i18n-pro/core/blob/v2.1.1/docs/dist/MATCH_RULE.md)
+   * [Q&A](https://github.com/i18n-pro/core/blob/v2.1.1/docs/dist/Q&A.md)
+   * [Translation Log](https://github.com/i18n-pro/core/blob/v2.1.1/docs/dist/OUTPUT_LOG.md)
 
 
 # License

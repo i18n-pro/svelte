@@ -72,5 +72,6 @@
   "该库是基于{0}结合{1}的{2}和{3}特性分别做了对应实现": "This library has corresponding implementations for the {2} and {3} features based on {0} and {1}",
   "用{0}包裹{1}": "Wrap {1} with {0}",
   "主要由{0}部分构成": "Mainly composed of {0} part",
-  "当前国际化的状态": "The current state of internationalization"
+  "当前国际化的状态": "The current state of internationalization",
+  "限制{0}的版本": "Limit versions of {0}"
 }
