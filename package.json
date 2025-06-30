@@ -1,6 +1,6 @@
 {
   "name": "@i18n-pro/svelte",
-  "version": "1.0.1",
+  "version": "2.0.0-alpha.0",
   "type": "module",
   "description": "An out-of-the-box, lightweight i18n auto-translation solution for Solid",
   "keywords": [
