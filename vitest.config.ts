@@ -22,5 +22,6 @@ export default defineConfig({
       reporter: ['json', 'html', 'text-summary', 'text'],
     },
     environment: 'jsdom',
+    // include: ['**/test/context/index.test.[jt]s'],
   },
 })

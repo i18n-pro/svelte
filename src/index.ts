@@ -17,14 +17,20 @@ function warn() {
 
 let innerI18nState: I18nState = { namespace }
 
-let i18nAPI: Omit<ReturnType<typeof initI18n>, 'withI18n'> = {
-  t: (x) => {
-    warn()
-    return x
-  },
-  setI18n: (args) => {
-    return { ...args, namespace }
-  },
+const initT = ((x) => {
+  warn()
+  return x
+}) as Translate
+
+initT.t = (key, text) => text
+
+initT.withLocale = () => {
+  return initT
+}
+
+let i18nAPI = {
+  t: initT,
+  setI18n: ((args) => Promise.resolve({ ...args, namespace })) as SetI18n,
 }
 
 let setT: (t: Translate) => void = null
@@ -42,10 +48,10 @@ export const t = readable(i18nAPI.t, (setTProp) => {
   ;(setT = setTProp)(i18nAPI.t)
 })
 
-export const setI18n: SetI18n = (args) => {
+export const setI18n: SetI18n = async (args) => {
   warn()
-  const newState = i18nAPI?.setI18n(args)
-  setT(i18nAPI.t.bind(null))
+  const newState = await i18nAPI?.setI18n(args)
+  setT(i18nAPI.t.withLocale())
   setI18nState(newState)
   return newState
 }

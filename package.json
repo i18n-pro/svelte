@@ -2,7 +2,7 @@
   "name": "@i18n-pro/svelte",
   "version": "1.0.1",
   "type": "module",
-  "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Svelte（适用于 Svelte 的轻量、简单、灵活、自动翻译的国际化工具）",
+  "description": "An out-of-the-box, lightweight i18n auto-translation solution for Solid",
   "keywords": [
     "svelte",
     "i18n",
@@ -55,6 +55,7 @@
     "@sveltejs/vite-plugin-svelte": "2.x.x",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/svelte": "^3.2.2",
+    "@types/node": "^24.0.7",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@vitest/coverage-istanbul": "^0.28.5",
@@ -81,15 +82,15 @@
     "vitest": "^0.29.3"
   },
   "peerDependencies": {
-    "i18n-pro": ">=2.0.0 <3.0.0",
+    "i18n-pro": ">=3.0.0 <4.0.0",
     "svelte": "3"
   },
   "dependencies": {
-    "i18n-pro": "2.0.0",
+    "i18n-pro": "3.0.0-alpha.2",
     "svelte": "^3.57.0"
   },
   "lint-staged": {
-    "*.{json,ts,tsx,js,svelte}": "eslint --fix -f table"
+    "*.{json,ts,tsx,js}": "eslint --fix -f table"
   },
   "codeNameMap": {
     "en": "",

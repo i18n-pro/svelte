@@ -49,7 +49,6 @@
   "可以通过{0}来切换语言": "You can switch languages through {0}",
   "真实代码示例可参考{0}文档中的{1}": "Real code examples can refer to {1} in the {0} document",
   "注意：为了避免幽灵依赖导致 i18n 命令不能使用的问题，使用 pnpm 必须要安装 i18n-pro": "Note: To prevent issues where the i18n command cannot be used due to ghost dependencies, it is essential to install i18n-pro when using pnpm",
-  "适用于 {0} 的轻量、简单、灵活、自动翻译的国际化工具": "Lightweight, simple, flexible, automatic translation internationalization tool for {0}",
   "组合式 API": "Composition API",
   "选项式 API": "Options API",
   "配置国际化初始化属性的容器组件": "Configure container components for internationalization initialization properties",
@@ -73,5 +72,7 @@
   "用{0}包裹{1}": "Wrap {1} with {0}",
   "主要由{0}部分构成": "Mainly composed of {0} part",
   "当前国际化的状态": "The current state of internationalization",
-  "限制{0}的版本": "Limit versions of {0}"
+  "限制{0}的版本": "Limit versions of {0}",
+  "开箱即用的轻量级 Svelte 国际化自动翻译解决方案": "An out-of-the-box, lightweight i18n auto-translation solution for Svelte",
+  "适配{0}": "Adapt {0}"
 }

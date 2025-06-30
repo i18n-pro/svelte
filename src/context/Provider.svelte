@@ -36,9 +36,9 @@
     state = i18nState
   }
 
-  const setI18n:SetI18n = (...args) => {
-    state = i18n.setI18n(...args)
-    setT(i18n.t.bind(null))
+  const setI18n:SetI18n = async (...args) => {
+    state = await i18n.setI18n(...args)
+    setT(i18n.t.withLocale())
     setI18nState(state)
 
     return state
@@ -49,7 +49,7 @@
   })
 
   const i18nState = readable(state, (setI18nStateProp) => {
-   (setI18nState=setI18nStateProp)(state)
+    (setI18nState=setI18nStateProp)(state)
   })
 
   setInnerContext(t, setI18n, i18nState)
