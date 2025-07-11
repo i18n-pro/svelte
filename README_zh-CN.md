@@ -13,7 +13,7 @@
 [![github-issues](https://img.shields.io/github/issues-raw/i18n-pro/svelte "github-issues")](https://github.com/i18n-pro/svelte/issues "github-issues")
 [![codecov](https://codecov.io/gh/i18n-pro/svelte/branch/main/graph/badge.svg?token=0F80N8BAZ0 "codecov")](https://codecov.io/gh/i18n-pro/svelte "codecov")
 
-![demo](https://s3.bmp.ovh/imgs/2024/04/29/bb8d20297d6edf26.gif)
+![demo](https://s3.bmp.ovh/imgs/2025/07/11/f4158e232580e524.gif)
 
 </div>
 <details >
