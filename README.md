@@ -164,7 +164,7 @@ new App({
 
 # Help Document
 
->To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br />The  `i18n-pro`  related link in the current document is based on the  `3.0.0-alpha.2`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage
+> To avoid unnecessary duplicate document content, some of the documents in this library are linked to the content in  `i18n-pro` <br/>> <br /><br/>> The  `i18n-pro`  related link in the current document is based on the  `3.0.0-alpha.2`  version. If you are using a different version, you need to check the document corresponding to the version you are using to avoid inconsistent usage<br/>
 * Current Library
    * Quick Start
       * [Implementation based on  `Store` ](https://github.com/i18n-pro/svelte/blob/v2.0.0-alpha.0/docs/dist/USAGE_STORE.md)
