@@ -43,9 +43,11 @@ createI18n( {
   langs: {
     zh: {
       'hello world': '你好世界',
+      'custom-key': '你好世界',
     },
     ja:{
       "hello world": "こんにちは世界",
+      'custom-key': 'こんにちは世界',
     },
   }
 })
@@ -56,7 +58,10 @@ createI18n( {
 </script>
 
 <div>
-  {$t('hello world')}
+  {/** ${t('文案即 key')} */}
+  <div>{$t('hello world')}</div>
+  {/** ${t('自定义 key')} */}
+  <div>{$t.t('custom-key', 'hello world')}</div>
 </div>
 
 // index.ts
@@ -98,7 +103,10 @@ function Context() {
 </script>
 
 <div>
-  {$t('hello world')}
+  {/** ${t('文案即 key')} */}
+  <div>{$t('hello world')}</div>
+  {/** ${t('自定义 key')} */}
+  <div>{$t.t('custom-key', 'hello world')}</div>
 </div>
 
 // Root.svelte
@@ -113,9 +121,11 @@ function Context() {
   langs={{
     zh: {
       'hello world': '你好世界',
+      'custom-key': '你好世界',
     },
     ja:{
       "hello world": "こんにちは世界",
+      'custom-key': 'こんにちは世界',
     },
   }}
 >

@@ -1,8 +1,9 @@
-import { H1, List } from 'jsx-to-md'
+import { Break, H1, List } from 'jsx-to-md'
 
 export default function Requirement() {
   return (
     <>
+      <Break />
       <H1>{t('要求')}</H1>
       <List
         items={[
