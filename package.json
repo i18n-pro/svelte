@@ -86,7 +86,7 @@
     "svelte": "3"
   },
   "dependencies": {
-    "i18n-pro": "3.0.0-alpha.2",
+    "i18n-pro": "3.0.0",
     "svelte": "^3.57.0"
   },
   "lint-staged": {
