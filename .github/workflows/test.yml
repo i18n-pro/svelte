@@ -24,7 +24,7 @@ jobs:
         shell: sh
 
       - name: 测试源码并生成覆盖率
-        run: npm run coverage
+        run: npm run coverage --verbose
         shell: sh
 
       - name: 查看覆盖率文件
