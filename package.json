@@ -58,8 +58,8 @@
     "@types/node": "^24.0.7",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
-    "@vitest/coverage-istanbul": "^0.28.5",
-    "@vitest/ui": "^0.28.5",
+    "@vitest/coverage-istanbul": "0.28.5",
+    "@vitest/ui": "0.28.5",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-formatter-table": "^7.32.1",
@@ -79,7 +79,7 @@
     "tslib": "^2.5.0",
     "typescript": "4.8.4",
     "vite": "^4.2.0",
-    "vitest": "^0.29.3"
+    "vitest": "0.29.3"
   },
   "peerDependencies": {
     "i18n-pro": ">=3.0.0 <4.0.0",
