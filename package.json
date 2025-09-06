@@ -39,7 +39,7 @@
     "lint-code": "npx lint-staged",
     "lint-msg": "npx commitlint --edit",
     "test": "vitest --ui",
-    "coverage": "vitest --coverage",
+    "coverage": "vitest --coverage --run",
     "build": "rimraf dist/src && rollup -c",
     "publish": "npm run build && npm publish --access=public --registry https://registry.npmjs.org",
     "docs": "cd docs && npm run docs",
