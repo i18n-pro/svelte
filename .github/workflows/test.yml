@@ -27,8 +27,12 @@ jobs:
         run: npm run coverage
         shell: sh
 
+      - name: 查看覆盖率文件
+        run: ls -l coverage
+        shell: sh
+
       - name: 上传测试报告
         run:
           bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
-          -Z -F unittests
+          -Z -F unittests -f coverage/
         shell: bash
