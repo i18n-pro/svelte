@@ -38,5 +38,5 @@ jobs:
       - name: 上传测试报告
         run:
           bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
-          -Z -F unittests -f coverage/
+          -Z -F unittests
         shell: bash
