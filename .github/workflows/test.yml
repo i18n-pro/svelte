@@ -20,7 +20,7 @@ jobs:
         shell: sh
 
       - name: 安装依赖
-        run: pnpm i --no-frozen-lockfile
+        run: pnpm i
         shell: sh
 
       - name: 测试源码并生成覆盖率
